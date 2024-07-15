@@ -1,0 +1,41 @@
+.title {
+    display: inline;
+    float:right;
+    padding-left: 50px;
+}
+
+.favContainer{
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+}
+
+.favButton{
+    margin-left: 100px;
+}
+
+.desc{
+    width: 65%;
+    text-align: justify;
+    text-justify: inter-word;
+}
+
+.bigContainer{
+    display: flex;
+}
+
+
+.rightCol{
+    margin-left: 50px;
+    padding-top: 250px;
+}
+
+
+.ratingInput{
+    width: 40px;
+}
+
+
+.reviewText{
+    font-size: 16pt;
+}
