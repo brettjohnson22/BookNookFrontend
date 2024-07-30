@@ -15,12 +15,13 @@ import Footer from "./components/Footer/Footer";
 
 // Util Imports
 import PrivateRoute from "./utils/PrivateRoute";
+import FavoritesPage from "./pages/FavoritesPage/FavoritesPage";
 
 function App() {
   return (
     <div>
       <Navbar />
-      <div class="main">
+      <div className="main">
       <Routes>
         <Route
           path="/"
@@ -33,7 +34,9 @@ function App() {
         <Route path="/register" element={<RegisterPage />} />
         <Route path="/login" element={<LoginPage />} />
         <Route path="/search" element={<SearchPage />} />
+        <Route path="/favorites" element={<FavoritesPage />} />
         <Route path="/book/:bookId" element={<BookDetailPage />} />
+
       </Routes>
       <Footer />
       </div>
